@@ -1,0 +1,7 @@
+parameters:
+#    php_bb_static_pages.example.class: phpBB\StaticPagesBundle\Example
+
+services:
+#    php_bb_static_pages.example:
+#        class: %php_bb_static_pages.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
