@@ -3,4 +3,3 @@ phpBBStaticPagesBundle_default:
     defaults: { _controller: phpBBStaticPagesBundle:Default:Default }
     requirements:
         slug: ".+"
-        _scheme:  http
