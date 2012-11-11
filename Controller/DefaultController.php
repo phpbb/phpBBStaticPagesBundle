@@ -16,15 +16,7 @@ class DefaultController extends Controller
 {
 	public function defaultAction($slug)
 	{
-		if ($container->getParameter('phpbb_static_pages.template.location'))
-		{
-			$static_templates_location = $container->getParameter('phpbb_static_pages.template.location');
-		}
-		else
-		{
-			$static_templates_location = ':Static:';
-		}
-
+		$static_templates_location = ':Static:';
 		$template_slug = str_replace('/', '.', $slug);
 		$template_location = $static_templates_location . $template_slug . '.html.twig';
 		$static_variables = array(
